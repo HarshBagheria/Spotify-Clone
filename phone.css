@@ -1,0 +1,70 @@
+@media screen and (max-width: 1260px) {
+    body{
+        background-color: antiquewhite;
+    }
+   .songItem span i {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    body{
+        background-color: blue;
+    }
+   .songItem {
+        height: 70px;
+        background-color: rgb(204, 168, 97);
+        width: 70%;
+    }
+
+    .songItem span i {
+        display: none;
+    }
+
+    .bottom {
+        height: 80px;
+    }
+
+    .songInfo{
+       display: none;
+    }
+  
+}
+
+
+@media screen and (max-width: 550px) {
+    body{
+        background-color: red;
+    }
+    .songItem {
+        height: 80px;
+        width: 90%;
+    }
+    .songItem span i {
+        display: none;
+    }
+    .bottom {
+        height: 94px;
+        margin: 20px 20px;
+    }
+    
+}
+
+
+@media screen and (max-width: 390px) {
+    body{
+        background-color: pink;
+    }
+    .songItem {
+        height: 80px;
+        width: 100%;
+    }
+
+    .songItem span i {
+        display: none;
+    }
+    .bottom {
+        height: 94px;
+        margin: 20px 20px;
+    }
+}
